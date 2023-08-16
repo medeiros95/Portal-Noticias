@@ -6,9 +6,9 @@ application.post('/noticias/salvar', function(req, res){
         var noticia = req.body;
 
         var connection = application.config.dbConnection();
-        var noticiasModel = application.app.models.noticiasModel;
+        var noticiasModel = new application.app.models.NoticiasDAO(connection);
 
-        noticiasModel.salvarNoticia(noticia, connection, function( erro, result){
+        noticiasModel.salvarNoticia(noticia, function( erro, result){
             res.redirect("/noticias");
         });
 
