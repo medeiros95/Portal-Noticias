@@ -7,11 +7,11 @@ function NoticiasDAO(connection){
 }
 
 NoticiasDAO.prototype.getNoticias = function(callback){
-    this._connection.query('select * from noticias', callback);
+    this._connection.query('select * from noticias order by data_criacao desc', callback);
 };
 
-NoticiasDAO.prototype.getNoticia = function(callback){
-    this._connection.query('select * from noticias where idnoticias = 1', callback)
+NoticiasDAO.prototype.getNoticia = function(idnoticia, callback){
+    this._connection.query('select * from noticias where idnoticias =' + idnoticia.idnoticias, callback)
 }
 
 NoticiasDAO.prototype.salvarNoticia = function(noticia, callback){
