@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Victor Medeiros</h1>
-<h3 align="center">O Projeto portal de noticias foi feito com foco em BackEnd para exercitar os conhecimentos em Node.JS, JavaScript e Banco de Dados SQL. Nesse projeto temos a crição de uma aplicação do zero com opção para adicionar novas noticias atravez do formulario e essas noticias são percistidas no banco de dados SQL, garantindo uma melhor funcionalidade do projeto.</h3>
+<h3 align="center">O Projeto Portal de Notícias foi feito com foco em BackEnd para exercitar os conhecimentos em Node.JS, JavaScript e Banco de Dados SQL. Nesse projeto temos a crição de uma aplicação do zero com opção para adicionar novas notícias através do formulário de cadastro e essas noticias são persistidas no banco de dados SQL, garantindo uma melhor funcionalidade do projeto.</h3>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
